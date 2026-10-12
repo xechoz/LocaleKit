@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Смена языка</string>
+
+    <string name="nav_app_language">Язык приложения</string>
+    <string name="nav_system_language">Язык системы</string>
+    <string name="nav_app_locale">Язык других приложений</string>
+
+    <string name="app_language_title">Язык приложения</string>
+    <string name="app_language_desc">Выберите язык, используемый этим приложением. Следуйте системе или укажите его явно.</string>
+    <string name="follow_system">Как в системе</string>
+
+    <string name="system_language_title">Язык системы</string>
+    <string name="system_language_desc">Язык, который сейчас использует система.</string>
+    <string name="current_system_language">Текущий язык системы</string>
+    <string name="open_language_settings">Открыть настройки языка системы</string>
+    <string name="system_language_hint">Android не позволяет приложениям напрямую менять язык системы, поэтому открывается страница системных настроек.</string>
+
+    <string name="app_locale_title">Язык других приложений</string>
+    <string name="app_locale_desc">Выберите приложение, чтобы изменить его собственный язык в системных настройках.</string>
+    <string name="app_locale_search">Поиск приложений</string>
+    <string name="show_system_apps">Показывать системные приложения</string>
+    <string name="app_locale_empty">Нет подходящих приложений</string>
+    <string name="app_locale_open_failed">На этом устройстве нет доступной страницы настроек</string>
+    <string name="app_locale_unsupported_title">Не поддерживается</string>
+    <string name="app_locale_unsupported_desc">Язык отдельных приложений требует Android 13 или выше.</string>
+</resources>

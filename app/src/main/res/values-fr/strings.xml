@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Changement de langue</string>
+
+    <string name="nav_app_language">Langue de l\'application</string>
+    <string name="nav_system_language">Langue du système</string>
+    <string name="nav_app_locale">Langue par application</string>
+
+    <string name="app_language_title">Langue de l\'application</string>
+    <string name="app_language_desc">Choisissez la langue utilisée par cette application. Suivez le système ou choisissez-en une explicitement.</string>
+    <string name="follow_system">Suivre le système</string>
+
+    <string name="system_language_title">Langue du système</string>
+    <string name="system_language_desc">La langue actuellement utilisée par le système.</string>
+    <string name="current_system_language">Langue actuelle du système</string>
+    <string name="open_language_settings">Ouvrir les paramètres de langue du système</string>
+    <string name="system_language_hint">Android ne permet pas aux applications de modifier directement la langue du système, cette action ouvre donc la page des paramètres système.</string>
+
+    <string name="app_locale_title">Langue par application</string>
+    <string name="app_locale_desc">Sélectionnez une application pour modifier sa propre langue dans les paramètres système.</string>
+    <string name="app_locale_search">Rechercher des applications</string>
+    <string name="show_system_apps">Afficher les applications système</string>
+    <string name="app_locale_empty">Aucune application correspondante</string>
+    <string name="app_locale_open_failed">Aucune page de paramètres disponible sur cet appareil</string>
+    <string name="app_locale_unsupported_title">Non pris en charge</string>
+    <string name="app_locale_unsupported_desc">La langue par application nécessite Android 13 ou une version ultérieure.</string>
+</resources>

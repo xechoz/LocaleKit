@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sprachwechsel</string>
+
+    <string name="nav_app_language">App-Sprache</string>
+    <string name="nav_system_language">Systemsprache</string>
+    <string name="nav_app_locale">Sprache pro App</string>
+
+    <string name="app_language_title">App-Sprache</string>
+    <string name="app_language_desc">Wähle die von dieser App verwendete Sprache. Dem System folgen oder eine Sprache explizit auswählen.</string>
+    <string name="follow_system">System folgen</string>
+
+    <string name="system_language_title">Systemsprache</string>
+    <string name="system_language_desc">Die aktuell vom System verwendete Sprache.</string>
+    <string name="current_system_language">Aktuelle Systemsprache</string>
+    <string name="open_language_settings">Systemsprachen-Einstellungen öffnen</string>
+    <string name="system_language_hint">Android erlaubt Apps nicht, die Systemsprache direkt zu ändern. Deshalb wird die Systemeinstellungsseite geöffnet.</string>
+
+    <string name="app_locale_title">Sprache pro App</string>
+    <string name="app_locale_desc">Wähle eine App, um ihre eigene Sprache in den Systemeinstellungen zu ändern.</string>
+    <string name="app_locale_search">Apps suchen</string>
+    <string name="show_system_apps">System-Apps anzeigen</string>
+    <string name="app_locale_empty">Keine passenden Apps</string>
+    <string name="app_locale_open_failed">Auf diesem Gerät ist keine Einstellungsseite verfügbar</string>
+    <string name="app_locale_unsupported_title">Nicht unterstützt</string>
+    <string name="app_locale_unsupported_desc">Sprache pro App erfordert Android 13 oder höher.</string>
+</resources>

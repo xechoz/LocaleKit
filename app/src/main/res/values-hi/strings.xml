@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">भाषा बदलें</string>
+
+    <string name="nav_app_language">ऐप की भाषा</string>
+    <string name="nav_system_language">सिस्टम भाषा</string>
+    <string name="nav_app_locale">प्रति-ऐप भाषा</string>
+
+    <string name="app_language_title">ऐप की भाषा</string>
+    <string name="app_language_desc">इस ऐप में इस्तेमाल होने वाली भाषा चुनें। सिस्टम का पालन करें या कोई भाषा चुनें।</string>
+    <string name="follow_system">सिस्टम का पालन करें</string>
+
+    <string name="system_language_title">सिस्टम भाषा</string>
+    <string name="system_language_desc">सिस्टम वर्तमान में जो भाषा इस्तेमाल कर रहा है।</string>
+    <string name="current_system_language">वर्तमान सिस्टम भाषा</string>
+    <string name="open_language_settings">सिस्टम भाषा सेटिंग्स खोलें</string>
+    <string name="system_language_hint">Android ऐप्स को सिस्टम भाषा सीधे बदलने की अनुमति नहीं देता, इसलिए यह सिस्टम सेटिंग्स पेज खोलता है।</string>
+
+    <string name="app_locale_title">प्रति-ऐप भाषा</string>
+    <string name="app_locale_desc">सिस्टम सेटिंग्स में किसी ऐप की भाषा बदलने के लिए ऐप चुनें।</string>
+    <string name="app_locale_search">ऐप्स खोजें</string>
+    <string name="show_system_apps">सिस्टम ऐप्स दिखाएँ</string>
+    <string name="app_locale_empty">कोई मेल खाता ऐप नहीं</string>
+    <string name="app_locale_open_failed">इस डिवाइस पर कोई सेटिंग्स पेज उपलब्ध नहीं है</string>
+    <string name="app_locale_unsupported_title">समर्थित नहीं</string>
+    <string name="app_locale_unsupported_desc">प्रति-ऐप भाषा के लिए Android 13 या नया संस्करण आवश्यक है।</string>
+</resources>

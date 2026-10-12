@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Troca de idioma</string>
+
+    <string name="nav_app_language">Idioma do app</string>
+    <string name="nav_system_language">Idioma do sistema</string>
+    <string name="nav_app_locale">Idioma por app</string>
+
+    <string name="app_language_title">Idioma do app</string>
+    <string name="app_language_desc">Escolha o idioma usado por este app. Siga o sistema ou selecione um explicitamente.</string>
+    <string name="follow_system">Seguir o sistema</string>
+
+    <string name="system_language_title">Idioma do sistema</string>
+    <string name="system_language_desc">O idioma usado atualmente pelo sistema.</string>
+    <string name="current_system_language">Idioma atual do sistema</string>
+    <string name="open_language_settings">Abrir as configurações de idioma do sistema</string>
+    <string name="system_language_hint">O Android não permite que apps alterem diretamente o idioma do sistema, por isso esta ação abre a página de configurações do sistema.</string>
+
+    <string name="app_locale_title">Idioma por app</string>
+    <string name="app_locale_desc">Escolha um app para alterar o próprio idioma nas configurações do sistema.</string>
+    <string name="app_locale_search">Pesquisar apps</string>
+    <string name="show_system_apps">Mostrar apps do sistema</string>
+    <string name="app_locale_empty">Nenhum app correspondente</string>
+    <string name="app_locale_open_failed">Nenhuma página de configurações disponível neste dispositivo</string>
+    <string name="app_locale_unsupported_title">Não compatível</string>
+    <string name="app_locale_unsupported_desc">O idioma por app requer Android 13 ou superior.</string>
+</resources>

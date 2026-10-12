@@ -1,5 +1,7 @@
 # LocaleKit
 
+[![](https://jitpack.io/v/xechoz/LocaleKit.svg)](https://jitpack.io/#xechoz/LocaleKit)
+
 Android 语言切换工具库 + 示例工具 App。
 
 解决两件事：**切换系统语言**、**切换 App 语言**。
@@ -24,9 +26,23 @@ LocaleKit/
 
 ### 1. 添加依赖
 
+在 `settings.gradle.kts` 的 `dependencyResolutionManagement` 中加入 JitPack 仓库：
+
 ```kotlin
-implementation(project(":locale"))
+repositories {
+    google()
+    mavenCentral()
+    maven("https://jitpack.io")
+}
 ```
+
+在模块的 `build.gradle.kts` 中加入依赖（版本号即 Git tag）：
+
+```kotlin
+implementation("com.github.xechoz.LocaleKit:locale:1.0.0")
+```
+
+> 本仓库内 `:app` 直接以 `implementation(project(":locale"))` 引用本地模块。
 
 ### 2. 声明支持的语言
 

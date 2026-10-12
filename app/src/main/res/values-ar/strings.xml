@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تغيير اللغة</string>
+
+    <string name="nav_app_language">لغة التطبيق</string>
+    <string name="nav_system_language">لغة النظام</string>
+    <string name="nav_app_locale">لغة كل تطبيق</string>
+
+    <string name="app_language_title">لغة التطبيق</string>
+    <string name="app_language_desc">اختر اللغة التي يستخدمها هذا التطبيق. اتبع النظام أو حدّد لغة معينة.</string>
+    <string name="follow_system">اتّباع النظام</string>
+
+    <string name="system_language_title">لغة النظام</string>
+    <string name="system_language_desc">اللغة التي يستخدمها النظام حاليًا.</string>
+    <string name="current_system_language">لغة النظام الحالية</string>
+    <string name="open_language_settings">فتح إعدادات لغة النظام</string>
+    <string name="system_language_hint">لا يسمح Android للتطبيقات بتغيير لغة النظام مباشرةً، لذا سيفتح هذا صفحة إعدادات النظام.</string>
+
+    <string name="app_locale_title">لغة كل تطبيق</string>
+    <string name="app_locale_desc">اختر تطبيقًا لتغيير لغته الخاصة من إعدادات النظام.</string>
+    <string name="app_locale_search">البحث عن التطبيقات</string>
+    <string name="show_system_apps">إظهار تطبيقات النظام</string>
+    <string name="app_locale_empty">لا توجد تطبيقات مطابقة</string>
+    <string name="app_locale_open_failed">لا تتوفر صفحة إعدادات على هذا الجهاز</string>
+    <string name="app_locale_unsupported_title">غير مدعوم</string>
+    <string name="app_locale_unsupported_desc">تتطلب لغة كل تطبيق Android 13 أو أحدث.</string>
+</resources>

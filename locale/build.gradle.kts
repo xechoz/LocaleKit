@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
+    `maven-publish`
 }
 
 android {
@@ -17,6 +18,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
 }
 
 kotlin {
@@ -29,4 +36,17 @@ dependencies {
     api(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
     testImplementation(libs.junit)
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.xechoz.LocaleKit"
+                artifactId = "locale"
+                version = "1.0.0"
+            }
+        }
+    }
 }

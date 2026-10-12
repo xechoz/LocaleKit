@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">言語の切り替え</string>
+
+    <string name="nav_app_language">アプリの言語</string>
+    <string name="nav_system_language">システム言語</string>
+    <string name="nav_app_locale">アプリごとの言語</string>
+
+    <string name="app_language_title">アプリの言語</string>
+    <string name="app_language_desc">このアプリで使用する言語を選択します。システムに合わせるか、個別に指定できます。</string>
+    <string name="follow_system">システムに合わせる</string>
+
+    <string name="system_language_title">システム言語</string>
+    <string name="system_language_desc">現在システムで使用されている言語です。</string>
+    <string name="current_system_language">現在のシステム言語</string>
+    <string name="open_language_settings">システムの言語設定を開く</string>
+    <string name="system_language_hint">Android ではアプリからシステム言語を直接変更できないため、システムの設定画面を開きます。</string>
+
+    <string name="app_locale_title">アプリごとの言語</string>
+    <string name="app_locale_desc">アプリを選択し、システム設定でそのアプリの言語だけを変更します。</string>
+    <string name="app_locale_search">アプリを検索</string>
+    <string name="show_system_apps">システムアプリを表示</string>
+    <string name="app_locale_empty">一致するアプリがありません</string>
+    <string name="app_locale_open_failed">この端末に利用できる設定画面がありません</string>
+    <string name="app_locale_unsupported_title">非対応</string>
+    <string name="app_locale_unsupported_desc">アプリごとの言語には Android 13 以降が必要です。</string>
+</resources>
