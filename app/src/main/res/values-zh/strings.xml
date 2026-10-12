@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">语言切换</string>
+
+    <string name="nav_app_language">本应用语言</string>
+    <string name="nav_system_language">系统语言</string>
+    <string name="nav_app_locale">应用语言</string>
+
+    <string name="app_language_title">本应用语言</string>
+    <string name="app_language_desc">选择本应用使用的语言，可跟随系统或单独指定。</string>
+    <string name="follow_system">跟随系统</string>
+
+    <string name="system_language_title">系统语言</string>
+    <string name="system_language_desc">当前系统正在使用的语言。</string>
+    <string name="current_system_language">当前系统语言</string>
+    <string name="open_language_settings">打开系统语言设置</string>
+    <string name="system_language_hint">Android 不允许应用直接修改系统语言，因此这里会跳转到系统设置页面。</string>
+
+    <string name="app_locale_title">应用语言</string>
+    <string name="app_locale_desc">选择应用，在系统设置中单独修改它的语言。</string>
+    <string name="app_locale_search">搜索应用</string>
+    <string name="show_system_apps">显示系统应用</string>
+    <string name="app_locale_empty">没有匹配的应用</string>
+    <string name="app_locale_open_failed">本机没有可用的设置页面</string>
+    <string name="app_locale_unsupported_title">不支持</string>
+    <string name="app_locale_unsupported_desc">单应用语言需要 Android 13 及以上系统。</string>
+</resources>

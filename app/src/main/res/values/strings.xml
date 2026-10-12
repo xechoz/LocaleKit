@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocaleKit</string>
+
+    <string name="nav_app_language">App language</string>
+    <string name="nav_system_language">System language</string>
+    <string name="nav_app_locale">Per-app language</string>
+
+    <string name="app_language_title">App language</string>
+    <string name="app_language_desc">Choose the language used by this app. Follow the system or pick one explicitly.</string>
+    <string name="follow_system">Follow system</string>
+
+    <string name="system_language_title">System language</string>
+    <string name="system_language_desc">The language currently used by the system.</string>
+    <string name="current_system_language">Current system language</string>
+    <string name="open_language_settings">Open system language settings</string>
+    <string name="system_language_hint">Android does not let apps change the system language directly, so this opens the system settings page.</string>
+
+    <string name="app_locale_title">Per-app language</string>
+    <string name="app_locale_desc">Pick an app to change its own language in the system settings.</string>
+    <string name="app_locale_search">Search apps</string>
+    <string name="show_system_apps">Show system apps</string>
+    <string name="app_locale_empty">No matching apps</string>
+    <string name="app_locale_open_failed">No settings page is available on this device</string>
+    <string name="app_locale_unsupported_title">Not supported</string>
+    <string name="app_locale_unsupported_desc">Per-app language requires Android 13 or later.</string>
+</resources>
