@@ -1,6 +1,6 @@
 # LocaleKit
 
-[![](https://jitpack.io/v/xechoz/LocaleKit.svg)](https://jitpack.io/#xechoz/LocaleKit)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.xechoz/locale.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.xechoz/locale)
 
 Android 语言切换工具库 + 示例工具 App。
 
@@ -26,20 +26,12 @@ LocaleKit/
 
 ### 1. 添加依赖
 
-在 `settings.gradle.kts` 的 `dependencyResolutionManagement` 中加入 JitPack 仓库：
+已发布到 Maven Central，Android 工程默认已包含 `mavenCentral()` 仓库，直接添加依赖即可：
 
 ```kotlin
-repositories {
-    google()
-    mavenCentral()
-    maven("https://jitpack.io")
+dependencies {
+    implementation("io.github.xechoz:locale:1.0.0")
 }
-```
-
-在模块的 `build.gradle.kts` 中加入依赖（版本号即 Git tag）：
-
-```kotlin
-implementation("com.github.xechoz.LocaleKit:locale:1.0.0")
 ```
 
 > 本仓库内 `:app` 直接以 `implementation(project(":locale"))` 引用本地模块。
